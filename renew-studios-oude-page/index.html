@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Home Page" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Renew Studios" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans"
+      rel="stylesheet"
+    />
+    <title>Renew Studio's</title>
+  </head>
+  <body>
+    <!-- Dit is de achtergrond -->
+    <div class="achtergrond"></div>
+
+    <!-- logo -->
+    <div class="logo">
+      <img src="img/logo.png" />
+    </div>
+
+    <!-- dit is de navigatie bar -->
+    <div class="navbar">
+      <input type="checkbox" id="toggleMenu" />
+      <nav>
+        <h4 class="kop">MENU</h4>
+        <ul>
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a
+              href="27266.hosts2.ma-cloud.nl/bewijzenmap/periode2.1/IDD/Project/team.html"
+              >ONS TEAM</a
+            >
+          </li>
+          <li>
+            <a href="">DIENSTEN</a>
+          </li>
+          <li>
+            <a href="">PROJECTEN</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+        <ul class="Contact">
+          <li>
+            <a
+              href="http://27266.hosts2.ma-cloud.nl/bewijzenmap/periode1.3/pro1/rekenspel/main.html"
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://27266.hosts2.ma-cloud.nl/bewijzenmap/periode1.3/pro1/rekenspel/main.html"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="http://27266.hosts2.ma-cloud.nl/bewijzenmap/periode1.3/pro1/rekenspel/main.html"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="http://27266.hosts2.ma-cloud.nl/bewijzenmap/periode1.3/pro1/rekenspel/main.html"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="http://27266.hosts2.ma-cloud.nl/bewijzenmap/periode1.3/pro1/rekenspel/main.html"
+              target="_blank"
+              ><i class="fa fa-file"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Dit is de home page -->
+      <main>
+        <label for="toggleMenu" id="togglelabel"></label>
+        <h1>Wij zijn <span class="typing"></span></h1>
+      </main>
+    </div>
+    <script src="jquery.2.min.js"></script>
+    <script src="typed.min.js"></script>
+    <script type="text/javascript">
+      var typed = new Typed(".typing", {
+        strings: ["Renew Studios.", "webdevelopers.", "webdesigners."],
+        loop: true,
+        typeSpeed: 40,
+        backSpeed: 40,
+        backDelay: 1000
+      });
+    </script>
+  </body>
+</html>

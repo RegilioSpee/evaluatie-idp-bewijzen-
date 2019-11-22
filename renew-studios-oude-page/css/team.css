@@ -1,0 +1,168 @@
+/*web*/
+
+body {
+  background-color: #6096fd;
+  background-image: url(../img/webpage-wireframe.png);
+  background-repeat: repeat;
+  height: 100vh;
+  width: 20px;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+}
+.logo img {
+  float: left;
+  height: 110px;
+  padding: 30px;
+  width: auto;
+}
+.team {
+  padding-left: 30%;
+  color: white;
+  margin-top: 13%;
+  margin-left: 10%;
+  font-weight: bold;
+  font-size: 3pc;
+  font-family: "Raleway", sans-serif;
+}
+
+nav h4 {
+  padding-top: 1.6em;
+  text-align: center;
+  color: white;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  padding-top: 30px;
+}
+
+a:hover {
+  color: #4b4b4b;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 3s ease-out;
+  padding-left: 26px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h4 .kop {
+  padding-top: 3px;
+}
+
+body main {
+  padding: 2em;
+  width: 100vw;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: static;
+}
+
+#togglelabel {
+  font-size: 2em;
+  font-weight: 900;
+  color: white;
+}
+
+#toggleMenu {
+  display: none;
+}
+
+#toggleMenu:checked ~ nav {
+  margin-right: 0.1px;
+}
+
+main #togglelabel::before {
+  margin-right: 0px;
+  transition: margin-right 0.7s ease-out;
+}
+
+#togglelabel::before {
+  content: "\2630";
+  cursor: pointer;
+  position: fixed;
+  right: 25px;
+  border-width: 1px;
+}
+
+#toggleMenu:checked ~ main #togglelabel::before {
+  content: "\2715";
+  position: fixed;
+  margin-right: 8em;
+}
+
+nav {
+  width: 17em;
+  margin-right: -17em;
+  transition: margin-right 0.7s ease-out;
+  background-color: rgba(22, 22, 22, 0.5);
+  height: 100vh;
+  position: fixed;
+  color: white;
+  right: 0px;
+}
+
+.navbar {
+  font-family: "Raleway", sans-serif;
+}
+
+.Contact li {
+  padding-top: 40px;
+  padding-left: 4px;
+  padding-right: 3px;
+  display: inline-block;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 4%;
+}
+
+.container__vadim {
+  height: 230px;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.container__regilio {
+  height: 230px;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.container__salentino {
+  height: 230px;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.container__tommy {
+  height: 230px;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.container__sohil {
+  height: 230px;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.container__flint {
+  height: 230px;
+  width: auto;
+  padding-bottom: 20px;
+}

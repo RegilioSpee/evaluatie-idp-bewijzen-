@@ -1,0 +1,170 @@
+@media screen and (min-width: 375px) {
+  body {
+    background-color: black;
+    background-image: url(../img/webpage-wireframe.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 20px;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: "Raleway", sans-serif;
+  }
+  /* Logo web */
+  .logo img {
+    float: left;
+    height: 100px;
+    width: auto;
+    position: sticky;
+  }
+
+  /* SLogan */
+  #kop {
+    color: white;
+    padding-left: 22%;
+    padding-top: 9px;
+    line-height: 17;
+  }
+
+  .typing,
+  h1 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-top: 290px;
+    font-size: 50px;
+    color: white;
+  }
+
+  nav h4 {
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 1;
+    list-style-type: none;
+    font-family: "Raleway", sans-serif;
+  }
+
+  nav li {
+    padding-top: 30px;
+    font-family: "Raleway", sans-serif;
+  }
+
+  a:hover {
+    color: #4b4b4b;
+  }
+
+  nav a {
+    color: #ddd;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 3s ease-out;
+    padding-left: 52px;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+  }
+
+  body main {
+    padding: 2em;
+    width: 100vw;
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: static;
+  }
+
+  #togglelabel {
+    font-size: 2em;
+    font-weight: 900;
+    color: white;
+  }
+
+  #toggleMenu {
+    display: none;
+  }
+
+  #toggleMenu:checked ~ nav {
+    margin-right: 0.1px;
+  }
+
+  main #togglelabel::before {
+    margin-right: 0px;
+    transition: margin-right 0.7s ease-out;
+  }
+
+  #togglelabel::before {
+    content: "\2630";
+    cursor: pointer;
+    position: fixed;
+    right: 25px;
+    border-width: 1px;
+  }
+
+  #toggleMenu:checked ~ main #togglelabel::before {
+    content: "\2715";
+    position: fixed;
+    margin-right: 9.3em;
+  }
+
+  nav {
+    width: 23.9em;
+    margin-right: -23.9em;
+    margin-top: -8px;
+    transition: margin-right 0.7s ease-out;
+    background-color: rgba(22, 22, 22, 0.5);
+    /*height: 100vh;*/
+    position: fixed;
+    color: white;
+    right: 0px;
+  }
+
+  .navbar {
+    font-family: "Oswald", sans-serif;
+  }
+
+  .Contact li {
+    padding-top: 30px;
+    padding-left: 4px;
+    padding-right: 3px;
+    display: inline-block;
+    line-height: 25;
+  }
+  li a {
+    /* margin-left: -17px; */
+  }
+
+  /* CODE VOOR SOCIAL MEDIA ICONS */
+  /* .fa {
+    padding: 25px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-linkedin {
+    background: #031888;
+    color: white;
+  }
+  .fa-instagram {
+    background: #031888;
+    color: white;
+  }
+  .fa-facebook {
+    background: #031888;
+    color: white;
+  }
+  .btn {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+  } */
+}
